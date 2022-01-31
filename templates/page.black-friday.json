@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "section_style": "section-blank",
+        "wrapper__height": 500,
+        "image_title": "",
+        "image_title_fr": "",
+        "image_subtitle": "",
+        "image_subtitle_fr": "",
+        "image_btntext": "",
+        "image_btntext_fr": "",
+        "image_link": "",
+        "image_link_fr": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1638260562ddf7b948": {
+      "type": "mission",
+      "blocks": {
+        "1638260562f354d840-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "Our Missin",
+            "mission_description": "<h2>Custom HTML!<\/h2><p>This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.This section can be used to code your own custom layout.<\/p><p><br><\/p>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "werw",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638260562f354d840-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 90,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "163826059822fc677a": {
+      "type": "featured-colleagues",
+      "blocks": {
+        "163826059868fb04a9-0": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
+            "colleague_desc": "<h2>John Day<\/h2><p>Web Developer<\/p>",
+            "text_alignment": "text-right"
+          }
+        }
+      },
+      "block_order": [
+        "163826059868fb04a9-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Meet our team",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1638260562ddf7b948",
+    "163826059822fc677a"
+  ]
+}
