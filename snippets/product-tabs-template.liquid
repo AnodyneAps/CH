@@ -139,33 +139,18 @@
 
 <div class="product-single" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
     <!-- product top banner  -->
-    {%- if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" -%}
-    {%- if section.settings.product_banner_postureshirt or section.settings.product_banner_mobile_postureshirt != blank -%}
-        <div class="wrapper">
-          <div class="collection__banner">
-            <img class="collection__banner-img lazyload"
-            src="{{section.settings.product_banner_postureshirt | img_url: '1920x60'}}"
-            alt="{{ product.title }}">
-            <img class="collection__banner-img-mobil lazyload"
-            src="{{section.settings.product_banner_mobile_postureshirt | img_url: '1920x60'}}"
-            alt="{{ product.title }}">
-          </div>
-        </div>
-   {%- endif-%}
-{%- else -%}
     {%- if section.settings.product_banner or section.settings.product_banner_mobile != blank -%}
-        <div class="wrapper">
-          <div class="collection__banner">
-            <img class="collection__banner-img lazyload"
-            src="{{section.settings.product_banner | img_url: '1920x60'}}"
-            alt="{{ product.title }}">
-            <img class="collection__banner-img-mobil lazyload"
-            src="{{section.settings.product_banner_mobile | img_url: '1920x60'}}"
-            alt="{{ product.title }}">
-          </div>
-        </div>
-  {%- endif-%}
- {%- endif-%}
+    <div class="wrapper">
+      <div class="collection__banner">
+        <img class="collection__banner-img lazyload"
+        src="{{section.settings.product_banner | img_url: '1920x60'}}"
+        alt="{{ collection.title }}">
+        <img class="collection__banner-img-mobil lazyload"
+        src="{{section.settings.product_banner_mobile | img_url: '500x40'}}"
+        alt="{{ collection.title }}">
+      </div>
+    </div>
+  {%- endif -%}
   <div class="box">
     <div class="wrapper">
       <div class="grid product-single">
@@ -476,7 +461,9 @@
                                data-option-name="{{ option.name | escape }}">
                           {{ option.name | escape }}: <span class="variant-label-option-value">{{ first_option_value | escape }}</span>
                         </label>
-
+                        <!-- select size message infobar start -->
+                        <div id="not_select_id" class="not-select"></div>
+                        <!-- select size message infobar end -->
                         {%- if section.settings.product_selector == 'radio' -%}
                           <fieldset class="single-option-radio inline-list"
                             id="ProductSelect-option-{{ forloop.index0 }}">
@@ -896,3 +883,23 @@
 {{ product.media | where: 'media_type', 'model' | json }}
 </script>
 {%- endunless -%}
+
+<script>
+  //check if radio wrapper for sizes exists and run the scrips
+  if($('.radio-wrapper').length){  
+    if($('.single-option-radio')){
+        $('.variant-label-option-value').html("");
+        $('.single-option-radio > input').removeAttr('checked'); 
+        $('#AddToCart--product-tabs-template').click(function(event){
+          if($('.single-option-radio > input:checked').length){
+          setTimeout(function(){$('.single-option-radio > input').removeAttr('checked'); $('.variant-label-option-value').html(""); }, 6000 );
+          } else {
+          event.preventDefault()
+          $("#not_select_id").html("<p id='not_select-m'> {{ 'products.sizes.choose-size-message' | t }}</p>"); 
+          $('.variant-label-option-value').html("");
+          setTimeout(function(){$("#not_select-m").hide();}, 5000);
+          }
+      });
+    }
+  } 
+</script>

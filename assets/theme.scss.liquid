@@ -5611,6 +5611,7 @@ cite {
 
   a {
     color: $colorAnnouncementText;
+    margin-top:5px;
   }
 
   .rte {
@@ -7193,6 +7194,16 @@ margin: 0 0.3rem;
   @include screenUp($postSmall) {
     @include flex(50%);
   }
+  .not-select{
+    #not_select-m{ 
+      background: rgba(tomato,0.8);
+      color:white;
+      border: 1px solid darken(tomato, 20%);
+      padding: 5px 15px;
+      font-size:1rem;
+      border-radius:3px;
+    }
+  }
 }
 
 // Product form item
@@ -7865,11 +7876,13 @@ body {
   .cu-product-name {
     margin-bottom: 0;
     margin-left: $spacer-sm;
+    display:none;
   }
 
   .cu-product-wrapper {
     @include display-flexbox();
     line-height: 0;
+    flex-wrap: wrap;
   }
 
   .cu-image-wrapper {
@@ -7880,12 +7893,13 @@ body {
 
   .cu-product-select {
     margin-right: $spacer-sm;
-    width: 120px;
+    width: 220px;
     @include flex(auto);
   }
 
   .cu-product-button {
     max-width: 140px;
+    margin-top:$gutter-xs;
   }
 }
 {%- endif -%}
@@ -9953,16 +9967,11 @@ right: 15px !important;
 selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:after, .ls-sw-languages-283692853.ls-sw-closed > .active:after{
   transform: rotate(135deg)!important;
 }
-//remove if the first child is a language layer
-.ls-sw-languages {
-  ul{
-    li:first-child{
-      display: none;
-    }
-  }
+selector[data-type="languages"][data-id="283692853"].ls-sw-all > .active .ls-icon, .ls-sw-languages-283692853.ls-sw-all > .active .ls-icon {
+@include screen($small){
+  display:none;
 }
-
-
+}
 .recommendation-title-wrapper{
   margin-bottom: -($gutter );
   .recommendation-header__title{

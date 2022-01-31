@@ -30,7 +30,7 @@
     "zindex_drawer": "999",
     "cart_notes_enable": false,
     "icon_cart": "shopping_basket",
-    "color_announcement_bg": "#444444",
+    "color_announcement_bg": "#ff891d",
     "color_nav_text": "#252525",
     "color_default": "#f7f7f7",
     "color_headings": "#252525",
@@ -95,6 +95,7 @@
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
+    "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_trust_badge": false,
     "dbtfy_wish_list": false,
@@ -235,6 +236,142 @@
       },
       "dbtfy-cart-upsell": {
         "type": "dbtfy-cart-upsell",
+        "blocks": {
+          "451d2538-f7a9-4763-b5cb-fa2e35e0ca97": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "96df2420-677b-4e48-98d3-ba2b5d86f160": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "d6f08106-bb23-4424-94aa-1822ba04e4c2": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "79a2797e-e3b1-47a7-8b94-4e8486c925f5": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "43b8d08b-7c95-4194-b981-424e8a94c5b1": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "091c6ac2-0125-4c78-a124-49ae252fe273": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "dd557b05-b368-46ee-aa7b-2aeda14f58ff": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "0cc9c88e-06a2-4a20-930a-f0b5fd188912": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "78c495dd-cb21-4029-87b7-747b4e881ea0": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "6709cdec-99b5-44bb-9175-35b5361f2833": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-burgund",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "b0b4d243-658b-4a06-b974-9a8edcc3b187": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "3a86afd0-f955-4475-8f82-39565a5b3af3": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          }
+        },
+        "block_order": [
+          "451d2538-f7a9-4763-b5cb-fa2e35e0ca97",
+          "96df2420-677b-4e48-98d3-ba2b5d86f160",
+          "d6f08106-bb23-4424-94aa-1822ba04e4c2",
+          "79a2797e-e3b1-47a7-8b94-4e8486c925f5",
+          "43b8d08b-7c95-4194-b981-424e8a94c5b1",
+          "091c6ac2-0125-4c78-a124-49ae252fe273",
+          "dd557b05-b368-46ee-aa7b-2aeda14f58ff",
+          "0cc9c88e-06a2-4a20-930a-f0b5fd188912",
+          "78c495dd-cb21-4029-87b7-747b4e881ea0",
+          "6709cdec-99b5-44bb-9175-35b5361f2833",
+          "b0b4d243-658b-4a06-b974-9a8edcc3b187",
+          "3a86afd0-f955-4475-8f82-39565a5b3af3"
+        ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
         }
@@ -293,7 +430,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>14 Tage Rückgaberecht  & unkomplizierter Umtausch<\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\"><strong>Sparen Sie bis zu 25% - Klicken Sie hier<\/strong><\/a><\/p>",
               "announcement_text_fr": "<p><strong>Politique de retours sous 14 jours<\/strong><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
@@ -440,7 +577,7 @@
               "logo_width": 150,
               "title": "Kontakt",
               "subtitle": "",
-              "text": "<p>Anodyne.ch<\/p><p><strong>Mon - Don: <\/strong>08:00 - 16:00<br\/><strong>Freitag:<\/strong> 08:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.ch<\/p><p><strong>Mon - Don: <\/strong>10:00 - 16:00<br\/><strong>Freitag:<\/strong> 10:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -708,7 +845,7 @@
           "1630063768bdfa2f5f-0": {
             "type": "service",
             "settings": {
-              "title": "Kostenlose Lieferung",
+              "title": "Schnelle Lieferung",
               "description": "GRATIS Versand für Einkäufe über 59 CHF",
               "icon": "shopify:\/\/shop_images\/Truck.png",
               "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
@@ -999,9 +1136,7 @@
           "desktop_grid": "4",
           "mobile_grid": "2",
           "collection_banner": "shopify:\/\/shop_images\/December-offers_DE.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DE.jpg",
-          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_7ca3c691-de33-4810-aebc-efb0469cd4d1.jpg",
-          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_0f03b794-65dc-4c41-a6a4-04c6e1380c2b.jpg"
+          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DE.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1024,8 +1159,6 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_7a06bb81-386e-42c4-bd08-76e8c1618bcd.jpg",
-          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_a5c89bed-731f-448f-b361-f038fb35ead6.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
@@ -1599,6 +1732,13 @@
       "16387934927fd4a02c",
       "1630404145a76c9e4d",
       "1630409395746d29de"
-    ]
+    ],
+    "blocks": {
+      "15323590465973626552": {
+        "type": "shopify:\/\/apps\/translate-currency-langshop\/blocks\/langshop\/84899e01-2b29-42af-99d6-46d16daa2111",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   }
 }
