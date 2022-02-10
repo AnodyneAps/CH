@@ -12,7 +12,10 @@
 
     {{ checkout_stylesheets }}
     {{ checkout_scripts }}
-  <style>.ls-sw-languages{display:none !important}</style>
+  <style>.ls-sw-languages{display:none !important}
+    
+    
+    </style>
   </head>
   <body>
     {{ skip_to_content_link }}
@@ -50,5 +53,13 @@
       </div>
     </div>
 {{ tracking_code }}
+    
+ <script>
+  if(typeof Checkout === 'object'){
+  if(typeof Checkout.$ === 'function'){
+  Checkout.$('button.order-summary-toggle.order-summary-toggle--show').trigger("click");
+      }
+  }
+</script>   
   </body>
 </html>

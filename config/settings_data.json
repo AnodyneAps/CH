@@ -72,6 +72,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
+    "dbtfy_cart_discount": false,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -117,6 +118,7 @@
     "dbtfy_cart_discount_savings_label": "Gesamtersparnis",
     "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
     "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
+    "dbtfy_infinite_scroll_options": "scroll",
     "dbtfy_infinite_scroll_loading_text": "Load more...",
     "dbtfy_inventory_quantity_threshold": 20,
     "dbtfy_menu_bar_link_list": "main-menu",
@@ -155,6 +157,7 @@
     "dbtfy_social_discount_reward_button": "Rabattcode verwenden",
     "dbtfy_social_discount_reward_code": "20GWS15",
     "dbtfy_social_discount_reward_amount": "10",
+    "dbtfy_trust_badge_cart": false,
     "dbtfy_trust_badge_text": "Garantiert sicherer und zuverlässiger Checkout",
     "dbtfy_wish_list_add_text": "Zur Wunschzettel hinzufügen",
     "dbtfy_wish_list_remove_text": "Von Wunschzettel entfernen",
@@ -239,6 +242,7 @@
         "blocks": {
           "451d2538-f7a9-4763-b5cb-fa2e35e0ca97": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -249,6 +253,7 @@
           },
           "96df2420-677b-4e48-98d3-ba2b5d86f160": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -259,6 +264,7 @@
           },
           "d6f08106-bb23-4424-94aa-1822ba04e4c2": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -269,6 +275,7 @@
           },
           "79a2797e-e3b1-47a7-8b94-4e8486c925f5": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -279,6 +286,7 @@
           },
           "43b8d08b-7c95-4194-b981-424e8a94c5b1": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -289,6 +297,7 @@
           },
           "091c6ac2-0125-4c78-a124-49ae252fe273": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -299,6 +308,7 @@
           },
           "dd557b05-b368-46ee-aa7b-2aeda14f58ff": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -309,6 +319,7 @@
           },
           "0cc9c88e-06a2-4a20-930a-f0b5fd188912": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -319,6 +330,7 @@
           },
           "78c495dd-cb21-4029-87b7-747b4e881ea0": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -329,6 +341,7 @@
           },
           "6709cdec-99b5-44bb-9175-35b5361f2833": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -339,6 +352,7 @@
           },
           "b0b4d243-658b-4a06-b974-9a8edcc3b187": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
@@ -349,11 +363,242 @@
           },
           "3a86afd0-f955-4475-8f82-39565a5b3af3": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 45%<\/strong>. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "a920a9d2-918c-4401-82dc-dc890d1ea638": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "a382a471-2803-41ba-b339-739f102694ba": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "b03c0f3e-8a0b-4daf-b502-e4394a9260f9": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "0d16e6a8-e4bd-4a2c-864c-8ac00895aac6": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "f3655cbe-75ef-49f4-a4e2-3c25ef01415b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "abff8b57-d71f-49a0-b5df-e0cda0cd488b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "2714c16b-0c4c-4255-a468-f860117b8527": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "92ddc871-19af-472a-bb8c-c7d556d71d87": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "a31272d6-eabb-4dfe-aec1-1a1539719d37": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-burgund",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "4f7ab490-3039-4bb1-88fc-6a541aac9cd3": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "4616aaa7-2c24-440f-b2d5-ba8deddefdbd": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "777d07aa-0f21-4b28-918d-86b6e531d64d": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "aeab3031-7809-4db9-b95d-28447c560084": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "1e4f1fd5-b8ee-4315-bd34-d31d546283ea": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-basic",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "7f60e539-dc2a-4d4d-b9b3-76e20c164411": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-premium",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "8b9cbcdb-9132-4f11-888f-2e5f74e2dc8e": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-comfort",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "385b8f0b-a3c9-4f7a-95b5-1939da47339b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "lendengurt",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "d673cb4b-16dd-4220-9a31-54b52501dfff": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "alignme-interactive-bra-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "77ed064d-3f39-49b1-9301-28592f54f940": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "alignme-interactive-bra-schwarz",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "84c41921-7e94-42a8-99dd-c3b952393b98": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "akupressurmatte",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "9f43a120-2a89-4020-b7a9-0fa79e4f1cf9": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "sitzkissen",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "329081a2-d907-4183-8ac7-04c8bb38a463": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "ruckenkissen",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+            }
+          },
+          "da1a3ab8-7731-4f30-9db1-65af3b7bc9a6": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Erhalten Sie jetzt die Massage Gun Mini mit <strong>30% Rabatt<\/strong> für nur CHF 99 (statt CHF 139)",
+              "dbtfy_cart_specific_upsell_product_trigger": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "massage-gun-mini",
               "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
             }
           }
@@ -370,7 +615,30 @@
           "78c495dd-cb21-4029-87b7-747b4e881ea0",
           "6709cdec-99b5-44bb-9175-35b5361f2833",
           "b0b4d243-658b-4a06-b974-9a8edcc3b187",
-          "3a86afd0-f955-4475-8f82-39565a5b3af3"
+          "3a86afd0-f955-4475-8f82-39565a5b3af3",
+          "a920a9d2-918c-4401-82dc-dc890d1ea638",
+          "a382a471-2803-41ba-b339-739f102694ba",
+          "b03c0f3e-8a0b-4daf-b502-e4394a9260f9",
+          "0d16e6a8-e4bd-4a2c-864c-8ac00895aac6",
+          "f3655cbe-75ef-49f4-a4e2-3c25ef01415b",
+          "abff8b57-d71f-49a0-b5df-e0cda0cd488b",
+          "2714c16b-0c4c-4255-a468-f860117b8527",
+          "92ddc871-19af-472a-bb8c-c7d556d71d87",
+          "a31272d6-eabb-4dfe-aec1-1a1539719d37",
+          "4f7ab490-3039-4bb1-88fc-6a541aac9cd3",
+          "4616aaa7-2c24-440f-b2d5-ba8deddefdbd",
+          "777d07aa-0f21-4b28-918d-86b6e531d64d",
+          "aeab3031-7809-4db9-b95d-28447c560084",
+          "1e4f1fd5-b8ee-4315-bd34-d31d546283ea",
+          "7f60e539-dc2a-4d4d-b9b3-76e20c164411",
+          "8b9cbcdb-9132-4f11-888f-2e5f74e2dc8e",
+          "385b8f0b-a3c9-4f7a-95b5-1939da47339b",
+          "d673cb4b-16dd-4220-9a31-54b52501dfff",
+          "77ed064d-3f39-49b1-9301-28592f54f940",
+          "84c41921-7e94-42a8-99dd-c3b952393b98",
+          "9f43a120-2a89-4020-b7a9-0fa79e4f1cf9",
+          "329081a2-d907-4183-8ac7-04c8bb38a463",
+          "da1a3ab8-7731-4f30-9db1-65af3b7bc9a6"
         ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
@@ -430,7 +698,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\"><strong>Sparen Sie bis zu 25% - Klicken Sie hier<\/strong><\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\"><strong>Sparen Sie bis zu 20% - Klicken Sie hier<\/strong><\/a><\/p>",
               "announcement_text_fr": "<p><strong>Politique de retours sous 14 jours<\/strong><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
