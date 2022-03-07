@@ -704,9 +704,9 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\"><strong>Erhalten Sie einen Rabattcode. Hier klicken<\/strong><\/a><\/p>",
-              "announcement_text_fr": "<p><strong>Politique de retours sous 14 jours<\/strong><\/p>",
-              "announcement_counter": "",
+              "announcement_text": "<p>Deal der Woche endet in: <\/p>",
+              "announcement_text_fr": "<p>L'offre se termine dans:<\/p>",
+              "announcement_counter": "Mar 7, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""
