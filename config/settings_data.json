@@ -69,8 +69,9 @@
     "base_family": "avenir_next_n4",
     "base_font_size": 15,
     "custom_quantity_breaks": true,
+    "dbtfy_agree_to_terms": true,
     "dbtfy_back_in_stock": true,
-    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
     "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
@@ -103,17 +104,24 @@
     "dbtfy_wish_list": false,
     "dbtfy_addtocart_animation_type": "pulse",
     "dbtfy_addtocart_animation_interval": 10,
+    "dbtfy_agree_text": "<p>Ich akzeptiere die Geschäftsbedingungen<\/p>",
+    "dbtfy_agree_warning_text": "<p>Sie müssen die Geschäftsbedingungen akzeptieren<\/p>",
+    "dbtfy_agree_order_title": "Ich akzeptiere die Geschäftsbedingungen",
+    "dbtfy_agree_order_yes_answer": "Ja",
     "dbtfy_back_in_stock_richtext": "<p>Benachrichtigung erhalten, sobald das Produkt auf Lager ist:<\/p>",
     "dbtfy_back_in_stock_btn": "Bitte benachrichtigen",
     "dbtfy_back_in_stock_btn_animation": true,
     "dbtfy_back_in_stock_success": "<p>Wir benachrichtigen Sie, sobald das Produkt auf Lager ist.<\/p>",
     "dbtfy_back_in_stock_body_suffix": "auf Lager ist.",
-    "dbtfy_cart_countdown_time_mins": 15,
-    "dbtfy_cart_countdown_prefix": "Ihre Produkte sind reserviert für:",
+    "dbtfy_cart_countdown_time_mins": 20,
+    "dbtfy_cart_countdown_prefix": "Ihre Produkte sind für",
+    "dbtfy_cart_countdown_suffix": "reserviert. Bestellen Sie jetzt!",
+    "dbtfy_cart_countdown_icon_over": "update",
+    "dbtfy_cart_countdown_msg_over": "Bestellen Sie bevor Ihre Produkte ausverkauft sind",
     "dbtfy_cart_discount_label": "Rabattcode",
     "dbtfy_cart_discount_placeholder": "Geben Sie hier Ihren Rabattcode ein",
     "dbtfy_cart_discount_apply_button_label": "Rabattcode verwenden",
-    "nlify_cart_notification": "Kaufen Sie mehr, Sparen Sie mehr! Wir bieten einen Mengenrabatt auf die meisten unserer Produkte. Es ist möglich, Mengenpreise mit Rabattcodes zu kombinieren.",
+    "nlify_cart_notification": "<strong>Unsere Garantie:<\/strong> Testen Sie unsere Produkte in aller Ruhe während 14 Tagen. Der Rückversand bei Anodyne® ist kostenfrei.",
     "nlify_custom_drawer_icon": "",
     "dbtfy_cart_goal_before_text": "Noch",
     "dbtfy_cart_goal_amount": "59",
@@ -380,9 +388,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -390,9 +398,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -400,9 +408,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -410,9 +418,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -420,9 +428,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -430,9 +438,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -440,9 +448,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -450,9 +458,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -460,9 +468,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-burgund",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -470,9 +478,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "back-stretcher",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -480,9 +488,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -490,9 +498,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -500,14 +508,15 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "1e4f1fd5-b8ee-4315-bd34-d31d546283ea": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
               "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
@@ -520,9 +529,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-premium",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -530,9 +539,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-comfort",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -540,9 +549,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "lendengurt",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -572,9 +581,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "akupressurmatte",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -582,9 +591,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "sitzkissen",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -592,9 +601,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "ruckenkissen",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -602,9 +611,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt <strong>sparen Sie 35%<\/strong>. (UVP 59.00 CHF)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP 45.00 CHF)",
               "dbtfy_cart_specific_upsell_product_trigger": "massagepistole-mini",
-              "dbtfy_cart_specific_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           }
@@ -706,7 +715,7 @@
             "settings": {
               "announcement_text": "<p>Deal der Woche endet in: <\/p>",
               "announcement_text_fr": "<p>L'offre se termine dans:<\/p>",
-              "announcement_counter": "Mar 7, 2022 23:59:59",
+              "announcement_counter": "Mar 13, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""
