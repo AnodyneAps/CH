@@ -384,7 +384,7 @@ $colorLink: $colorSecondary;
 $colorLinkHover: $colorSecondary;
 
 // Helper colors
-$colorError: $colorSecondary;
+$colorError: crimson;
 $colorSuccess: $colorPrimary;
 
 // Drawer sizes and colors
@@ -1976,8 +1976,8 @@ $class-type: unquote(".");
 
   // Error message
   .errors {
-    color: $secondary;
-    border-color: $secondary;
+    color: $colorError;
+    background-color: rgba(255, 0, 0, 0.3);
   }
 
   // Select box
@@ -6212,11 +6212,22 @@ cite {
     border-top: $borders;
     border-color: $colorDrawerBorder;
   }
-
   // Error message
   .errors {
-    color: $colorDrawerErrorText;
-    border-color: $colorDrawerErrorText;
+    position: relative;
+    color: $colorError;
+    border-color: rgba(255,0,0,0.01);
+  }
+  .at-terms-error-message::before{
+    content: " ";
+    position: absolute;
+    top: -7px; 
+    left:5px;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid rgba(255,0,0,0.3);
   }
 }
 
@@ -9979,8 +9990,11 @@ body:not(.dbtfy-wish_list-destroy) {
     }
   }
 }
+.ls-sw-languages{
+  display: none !important;
+}
 
-selector[data-type="languages"][data-id="283692853"] > .active, .ls-sw-languages-283692853 > .active {
+/*selector[data-type="languages"][data-id="283692853"] > .active, .ls-sw-languages-283692853 > .active {
 padding:4px 5px !important;
 border: 1px solid rgba(233,233,234,0.5) !important;
 @include screen($small){
@@ -9998,7 +10012,7 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-all > .active .ls-ico
 @include screen($small){
   display:none;
 }
-}
+} */
 .recommendation-title-wrapper{
   margin-bottom: -($gutter );
   .recommendation-header__title{
@@ -10339,6 +10353,24 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-all > .active .ls-ico
           word-break: break-word;
         }
       }
+    }
+  }
+}
+.site-nav__item, .dropdown-item {
+  .langlink {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .langtext{
+      font-size:0.95rem;
+      padding-left: 5px;
+    }
+  }
+}
+.dropdown-item{
+  .langlink {
+    .langflag img{
+      margin-top:5px;
     }
   }
 }

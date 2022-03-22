@@ -49,7 +49,7 @@
     <div class="grid-product__image-wrapper">
            <!--  custom labels start -->
            {% if product.metafields.theme.labels__label != blank %}
-            <span class="custom__labels--label">{{product.metafields.theme.labels__label}}</span>
+           <span class="custom__labels--label">{{product.metafields.theme.labels__label}}</span>
            {% endif %}
           <!--  custom labels end-->
       <a href="{{ product_link }}?variant={{ product.first_available_variant.id }}" class="grid-product__image-link">

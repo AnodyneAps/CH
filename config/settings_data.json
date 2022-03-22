@@ -58,6 +58,12 @@
     "color_transparent_nav_text": "#f7f7f7",
     "opacity_overlay": 16,
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "share_whatsapp": false,
+    "share_email": false,
+    "share_messenger": false,
     "social_facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
     "social_instagram_link": "https:\/\/www.instagram.com\/anodyne.dk",
     "header_family": "poppins_n4",
@@ -713,9 +719,9 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>Deal der Woche endet in: <\/p>",
-              "announcement_text_fr": "<p>L'offre se termine dans:<\/p>",
-              "announcement_counter": "Mar 13, 2022 23:59:59",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.ch\/pages\/rabattcode\">Erhalten Sie einen Rabattcode. <span style=\"text-decoration:underline\"><strong>Hier Klicken<\/strong><\/span><\/a><\/p>",
+              "announcement_text_fr": "",
+              "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": "",
               "announcement_end_text_fr": ""
