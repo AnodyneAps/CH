@@ -1448,6 +1448,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
+          "product_banner": "shopify:\/\/shop_images\/banner-dch.png",
+          "product_banner_mobile": "shopify:\/\/shop_images\/banner-mch.png",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
