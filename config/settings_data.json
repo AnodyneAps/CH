@@ -1416,6 +1416,8 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "collection_stars": "shopify:\/\/shop_images\/tp_ch_de_b9d80890-610f-4db3-b8cf-3f78f2d48480.jpg",
+          "stars_url": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
           "collection_tags_enable": false,
           "collection_tags_count": false,
           "collection_multiple_tags_filtering_enable": false,
@@ -1423,9 +1425,7 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/December-offers_DE.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DE.jpg"
+          "mobile_grid": "2"
         }
       },
       "dbtfy-collection-filters": {
