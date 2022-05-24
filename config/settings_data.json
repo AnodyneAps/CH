@@ -720,17 +720,49 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"\/collections\/alle-produkte\" title=\"Alle Produkte\"><strong>FRÜHLINGSVERKAUF! <\/strong>Bis zu <span style=\"text-decoration:underline\">-50%<\/span> Rabatt<\/a><\/p>",
-              "announcement_text_fr": "",
+              "announcement_text": "<p>GRATIS Versand für Einkäufe über 59 CHF<\/p>",
+              "icon_selector": "checkmark",
               "announcement_counter": "",
               "announcemen_link": "",
-              "announcement_end_text": "",
-              "announcement_end_text_fr": ""
+              "announcement_end_text": ""
+            }
+          },
+          "311bc42d-f22c-429f-9c48-66600a94bcbb": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Kostenlose Rückgabe<\/p>",
+              "icon_selector": "return",
+              "announcement_counter": "",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "9ae41b9a-f95d-46a6-907a-3d4d93ce873d": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Schnelle Lieferung<\/p>",
+              "icon_selector": "truck",
+              "announcement_counter": "",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "84fcf7d0-2669-4a2a-a7ff-99d2e003afad": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Professioneller Service<\/p>",
+              "icon_selector": "star",
+              "announcement_counter": "",
+              "announcemen_link": "",
+              "announcement_end_text": ""
             }
           }
         },
         "block_order": [
-          "announcement-0"
+          "announcement-0",
+          "311bc42d-f22c-429f-9c48-66600a94bcbb",
+          "9ae41b9a-f95d-46a6-907a-3d4d93ce873d",
+          "84fcf7d0-2669-4a2a-a7ff-99d2e003afad"
         ],
         "settings": {
           "show_announcement": true,
@@ -1116,7 +1148,7 @@
           "image_position": "center center",
           "video_title": "<span class=\"first\">Anodyne®<\/span>",
           "text_size": "medium",
-          "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Schmerzen<\/strong><\/p>",
+          "text_description": "<p><strong>FRÜHLINGSVERKAUF!<\/strong> Bis zu -50% Rabatt<\/p>",
           "text_description_size": "medium",
           "button_label": "Frauen",
           "button_link": "shopify:\/\/collections\/frauen",
