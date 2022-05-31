@@ -769,7 +769,7 @@
           "show_social": false,
           "email": true,
           "phone": true,
-          "left_message": "<p>Herzlich willkommen!<\/p>",
+          "left_message": "<p>Wir optimieren Ihre Körperhaltung<\/p>",
           "right_message": "<p><a href=\"\/pages\/kontakt\" target=\"_blank\" title=\"Kontakt\">Kontakt<\/a><\/p>",
           "announcement_autoplayspeed": 5
         }
@@ -1148,7 +1148,7 @@
           "image_position": "center center",
           "video_title": "<span class=\"first\">Anodyne®<\/span>",
           "text_size": "medium",
-          "text_description": "<p><strong>FRÜHLINGSVERKAUF!<\/strong> Bis zu -50% Rabatt<\/p>",
+          "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Verspannungen<br\/><br\/><\/strong><\/p>",
           "text_description_size": "medium",
           "button_label": "Frauen",
           "button_link": "shopify:\/\/collections\/frauen",
