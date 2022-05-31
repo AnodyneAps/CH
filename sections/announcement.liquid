@@ -25,7 +25,7 @@
           
                 {%- unless block.settings.announcement_text == blank -%}
                   <div class="announcement-message"> 
-                    <span>{%- render 'icon' with {{block.settings.icon_selector}} -%}</span>
+                    <div class="Icon-wrapper">{%- render 'icon' with {{block.settings.icon_selector}} -%}</div>
                   {{ block.settings.announcement_text }}
                 </div>
                 {%- endunless -%}
