@@ -30,8 +30,10 @@
                 </div>
                 {%- endunless -%}
 
+  
+
                 {%- unless block.settings.announcement_counter == blank -%}
-                <div id="announcement_counter" class="announcement_counter  flex justify-start align-center" data-announcement-date="{{ block.settings.announcement_counter}}">
+                <div id="announcement_counter" class="announcement_counter  flex justify-start align-center" data-announcement-date="{% if block.settings.announcement_counter !=blank %}{{ block.settings.announcement_counter}}{% endif %}">
                   <!-- <div class="announcement_number"><span class="digit">10</span><span class="announcement_text">D<span class="hide-small">ays</span></span></div>
                   <div class="announcement_number"><span class="digit">23</span><span class="announcement_text">H<span class="hide-small">ours</span></span></div>
                   <div class="announcement_number"><span class="digit">03</span><span class="announcement_text">M<span class="hide-small">inuttes</span></span></div>

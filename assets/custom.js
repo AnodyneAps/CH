@@ -105,86 +105,53 @@ const removeActiveHomeTabItemClass = () => {
 
 
 //topbar counter 
-let ann_firstText = document.querySelector('.announcement-message');
-let ann_firstTextFr = document.querySelector('.announcement-message_fr');
-let ann_counterWrapper = document.getElementById('ann_counter__wrapper');
-let ann_counterEndText = document.querySelector('.announcement-end-text');   
-let ann_counterEndTextFr = document.querySelector('.announcement-end-text_fr'); 
-const ann_dateId = document.getElementById('announcement_counter_de');
-const ann_dateIdFr = document.getElementById('announcement_counter_fr');
-let ann_eventDate = ann_counterWrapper.getAttribute('data-announcement-date');
-function annUpdateTimer(at, someId) {
-future = Date.parse(at);
-now = new Date();
-diff = future - now;
+// let announcementCounterEndText = document.querySelector('.announcement-end-text');
+// let announcementEndTextBack = document.querySelector('.announcement-message');
+// const announcementDateId = document.getElementById('announcement_counter');
+// let announcementEventDate = announcementDateId.getAttribute('data-announcement-date');
+// function annUpdateTimer(at, someId) {
+// future = Date.parse(at);
+// now = new Date();
+// diff = future - now;
 
-if(diff >= 0){
-days = Math.floor(diff / (1000 * 60 * 60 * 24));
-hours = Math.floor(diff / (1000 * 60 * 60));
-mins = Math.floor(diff / (1000 * 60));
-secs = Math.floor(diff / 1000);
-	//add zeros
-	function addZero(num) {
-		return ("0" + parseInt(num)).substr(-2);
-	}
-d = addZero(days);
-h = addZero(hours - days * 24);
-m = addZero(mins - hours * 60);
-s = addZero(secs - mins * 60);
+// if(diff >= 0){
+// days = Math.floor(diff / (1000 * 60 * 60 * 24));
+// hours = Math.floor(diff / (1000 * 60 * 60));
+// mins = Math.floor(diff / (1000 * 60));
+// secs = Math.floor(diff / 1000);
+// 	//add zeros
+// 	function addZero(num) {
+// 		return ("0" + parseInt(num)).substr(-2);
+// 	}
+// d = addZero(days);
+// h = addZero(hours - days * 24);
+// m = addZero(mins - hours * 60);
+// s = addZero(secs - mins * 60);
 		
-  if(d<1){
-    if(someId.id === 'announcement_counter_de'){
-      someId.innerHTML = `
-<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">S<span class="hide-small">unden</span></span></div>
-<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunden</span></span></div>
-`
-    }
-    if(someId.id === 'announcement_counter_fr'){
-      someId.innerHTML = `
-<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
-<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
-`
-    }
-  
-  }else{
+//   if(d<1){
+// 		someId.innerHTML = `
+// 		<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">S<span class="hide-small">unden</span></span></div>
+// 		<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
+// 		<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunden</span></span></div>
+// 		`
+//   }else{
     
-    
-    if(someId.id === 'announcement_counter_de'){
-	someId.innerHTML = `
-	<div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">T<span class="hide-small">age</span></span></div>
-	<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">S<span class="hide-small">unden</span></span></div>
-	<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-	<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunden</span></span></div>
-`
-}
-if(someId.id === 'announcement_counter_fr'){
-	someId.innerHTML = `
-	<div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">J<span class="hide-small">ours</span></span></div>
-	<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
-	<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-	<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
-`
-}
-  
-  }
+// 	someId.innerHTML = `
+// 	<div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">T<span class="hide-small">age</span></span></div>
+// 	<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">S<span class="hide-small">unden</span></span></div>
+// 	<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
+// 	<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunden</span></span></div>
+// `
+//   }
 
-}else {
-		if(someId.id === 'announcement_counter_de'){
-			someId.innerHTML = `<div class="endtextjs">${ann_counterEndText.innerHTML}</div>`;
-			ann_firstText.innerHTML = '';
-		}
-		if(someId.id === 'announcement_counter_fr'){
-			someId.innerHTML = `<div class="endtextjs">${ann_counterEndTextFr.innerHTML}</div>`;
-			ann_firstTextFr.innerHTML = '';
-		}
-}
-}
+// }else {
 
-if (ann_dateId !== null) {
-	setInterval('annUpdateTimer(ann_eventDate, ann_dateId)', 1000);
-}
-if (ann_dateIdFr !== null) {
-	setInterval('annUpdateTimer(ann_eventDate, ann_dateIdFr)', 1000);
-}
+// 			someId.innerHTML = `<div class="endtextjs">${announcementCounterEndText.innerHTML}</div>`;
+// 			announcementEndTextBack.innerHTML = '';
+
+// }
+// }
+
+// if (announcementEventDate !== null) {
+// 	setInterval(annUpdateTimer(announcementEventDate, announcementDateId ), 1000);
+// }
