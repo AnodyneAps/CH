@@ -78,7 +78,7 @@
     "custom_quantity_breaks": true,
     "dbtfy_agree_to_terms": true,
     "dbtfy_back_in_stock": true,
-    "dbtfy_cart_countdown": true,
+    "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
     "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
@@ -723,7 +723,7 @@
               "announcement_text": "<p>Gratis Versand für Einkäufe über 59 CHF<\/p>",
               "icon_selector": "checkmark",
               "announcement_counter": "",
-              "announcemen_link": "",
+              "announcement_link": "",
               "announcement_end_text": ""
             }
           },
@@ -733,7 +733,7 @@
               "announcement_text": "<p>Kostenlose Rückgabe<\/p>",
               "icon_selector": "return",
               "announcement_counter": "",
-              "announcemen_link": "",
+              "announcement_link": "",
               "announcement_end_text": ""
             }
           },
@@ -743,7 +743,7 @@
               "announcement_text": "<p>Schnelle Lieferung<\/p>",
               "icon_selector": "truck",
               "announcement_counter": "",
-              "announcemen_link": "",
+              "announcement_link": "",
               "announcement_end_text": ""
             }
           },
@@ -753,7 +753,7 @@
               "announcement_text": "<p>Professioneller Service<\/p>",
               "icon_selector": "star",
               "announcement_counter": "",
-              "announcemen_link": "",
+              "announcement_link": "",
               "announcement_end_text": ""
             }
           }
@@ -1231,7 +1231,7 @@
           "1630070175c6ebb320-0": {
             "type": "collection",
             "settings": {
-              "collection": "andere-produkte",
+              "collection": "hilfsmittel",
               "btn__shopnow": "Shop"
             }
           }
@@ -1646,7 +1646,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Wie lange hält mein Anodyne®-Produkt?",
-              "text": "<p>Die Lebensdauer Ihres Anodyne-Produkts hängt davon ab, wie Sie es pflegen, und wie bei allen anderen Kleidungsstücken zeigt auch diese Kleidung Gebrauchsspuren, je nachdem, wie oft Sie sie tragen.<br\/><\/p><p>Es ist wichtig, dass Sie die Pflegeanleitung befolgen. Wir empfehlen Handwäsche, es kann aber auch in der Maschine gewaschen werden, jedoch nicht über 30 Grad. Das Produkt darf nicht im Trockner getrocknet werden, da dadurch die NeuroBands® und die Elastizität beschädigt werden. Die NeuroBands® sind die Besonderheit, die in das Posture Shirt integriert ist und die Rückmeldung an Ihren Körper gibt, wenn Ihre Haltung nicht optimal ist.<\/p><p>Wenn Sie das Produkt gemäß den Pflegeanweisungen pflegen, sollte das Produkt bis zu 700 Wäschen halten. Der Verschleiß ist immer stark von der Nutzung und Pflege abhängig.<\/p>"
+              "text": "<p>Die Lebensdauer Ihres Anodyne-Produkts hängt davon ab, wie Sie es pflegen, und wie bei allen anderen Kleidungsstücken zeigt auch diese Kleidung Gebrauchsspuren, je nachdem, wie oft Sie sie tragen.<br\/><\/p><p>Es ist wichtig, dass Sie die Pflegeanleitung befolgen. Wir empfehlen Handwäsche. Das Produkt darf nicht im Trockner getrocknet werden, da dadurch die NeuroBands® und die Elastizität beschädigt werden. Die NeuroBands® sind die Besonderheit, die in das Posture Shirt integriert ist und die Rückmeldung an Ihren Körper gibt, wenn Ihre Haltung nicht optimal ist.<\/p><p>Wenn Sie das Produkt gemäß den Pflegeanweisungen pflegen, sollte das Produkt bis zu 700 Wäschen halten. Der Verschleiß ist immer stark von der Nutzung und Pflege abhängig.<\/p>"
             }
           },
           "933374dc-fbfa-4360-8acb-e7fa4ed43408": {
@@ -1732,7 +1732,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Wie kann ich meine Anodyne®-Produkte am besten pflegen?",
-              "text": "<p>Das Posture-Shirt und der Anodyne-BH können bei 30 Grad von Hand oder in der Maschine gewaschen werden. Es ist absolut wichtig, dass die Produkte nicht im Trockner getrocknet werden, da dadurch die Wirksamkeit der Neurobands zerstört wird. Außerdem sollte kein Weichspüler verwendet werden, da dies die Leistung der Neurobands beeinträchtigt. Die Produkte trocknen dankenswerterweise schnell, wenn sie über Nacht frei gehängt werden.<\/p>"
+              "text": "<p>Das Posture-Shirt und der Anodyne-BH können bei 30 Grad von Hand gewaschen werden. Es ist absolut wichtig, dass die Produkte nicht im Trockner getrocknet werden, da dadurch die Wirksamkeit der Neurobands zerstört wird. Außerdem sollte kein Weichspüler verwendet werden, da dies die Leistung der Neurobands beeinträchtigt. Die Produkte trocknen dankenswerterweise schnell, wenn sie über Nacht frei gehängt werden.<\/p>"
             }
           },
           "bda21ef6-fb99-4fce-9091-d4bc393f93e2": {
@@ -1818,7 +1818,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Habe ich eine Garantie für meine Anodyne®-Produkte?",
-              "text": "<p>Ja, gemäß dem Consumer Rights Act haben Sie eine Garantie von 6 Monaten.<br\/><\/p><p>Wenn das Produkt fehlerhaft ist, werden wir es umtauschen, solange Sie die Pflegeanleitung befolgt haben. Wenn es sich um das Posture-Shirt und den Anodyne-BH handelt, dürfen diese Produkte weder trocknergetrocknet noch über 30 Grad gewaschen werden.<\/p><p>Wenn Sie zu den wenigen gehören, die mit einem fehlerhaften Produkt kein Glück haben, dann setzen Sie sich so schnell wie möglich mit uns in Verbindung.<\/p>"
+              "text": "<p>Ja, gemäß dem Consumer Rights Act haben Sie eine Garantie von 6 Monaten.<br\/><\/p><p>Wenn das Produkt fehlerhaft ist, werden wir es umtauschen, solange Sie die Pflegeanleitung befolgt haben. Wenn es sich um das Posture-Shirt und den Anodyne-BH handelt, dürfen diese Produkte weder trocknergetrocknet noch über 30 Grad im Hand gewaschen werden.<\/p><p>Wenn Sie zu den wenigen gehören, die mit einem fehlerhaften Produkt kein Glück haben, dann setzen Sie sich so schnell wie möglich mit uns in Verbindung.<\/p>"
             }
           },
           "e96ec618-db58-4833-a71e-72610c446d3a": {
