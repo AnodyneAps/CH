@@ -925,10 +925,12 @@
         "settings": {
           "show_social_media": false,
           "social_title": "Follow-us on social media!",
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
-          "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>"
+          "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
+          "bottom_counter_text": "Wir versenden Ihr Paket in",
+          "show_bottom_counter": true
         }
       },
       "product-template": {
