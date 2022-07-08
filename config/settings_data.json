@@ -1502,7 +1502,9 @@
           "dbtfy_product_description_position": "separate_section",
           "description_style": "section-border",
           "text_alignment": "text-center",
-          "text_alignment_mobile": "small--text-center"
+          "text_alignment_mobile": "small--text-center",
+          "instead-of-counter-text": "<p>Möchten Sie <strong>10%<\/strong> Extra-Rabatt? <strong>Klicken Sie hier<\/strong><\/p>",
+          "instead-of-counter-link": "shopify:\/\/pages\/rabattcode"
         }
       },
       "product-cards": {
@@ -2067,6 +2069,13 @@
         "type": "shopify:\/\/apps\/translate-currency-langshop\/blocks\/langshop\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
         "settings": {}
+      },
+      "8EXsT6DE0v1v3E1bxP": {
+        "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
+        "disabled": false,
+        "settings": {
+          "account_param": "7174993"
+        }
       }
     }
   }
